@@ -27,7 +27,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* centra el menú */
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
 .menu li {
