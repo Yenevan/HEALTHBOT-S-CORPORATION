@@ -112,3 +112,19 @@ button:hover {
   font-size: 13px;
   color: #0ff;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Para celular */
+@media (max-width: 768px) {
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+}
