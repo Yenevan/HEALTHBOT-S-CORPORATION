@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>HEALTHBOT 3D Interactivo</title>
+  <link rel="stylesheet" href="css/modelo3d.css">
+</head>
+
+  <header class="encabezado">
+    <h1>HEALTHBOT'S CORPORATION</h1>
+    <p>Observa nuestro modelo 3D interactivo de HEALTHBOT.</p>
+
+   <nav class="menu">
+      <ul>
+       <li><a href="../index1.html">Inicio ▼</a></li>
+      </ul>
+   </nav>
+
+
+
+  </header>
+
+<body  class="body">
+
+     <div class="subtituloinicial">
+       <h2>Modelo 3D Interactivo de HEALTHBOT</h2>
+      <p>Explora nuestro modelo 3D de HEALTHBOT, diseñado para mostrar sus características y funcionalidades. Puedes rotar, acercar y alejar el modelo para una vista detallada. ¡Interactúa con él para descubrir todo lo que HEALTHBOT puede hacer por tu salud!</p>
+    </div>
+
+   <canvas id="canvas"></canvas>
+
+    <div class="panel">
+     <h2>🤖 Healthbot</h2>
+
+     <button onclick="startListening()">🎤 Hablar</button>
+     <button onclick="scanHealth()">🩺 Escanear</button>
+     <button onclick="waveHand()">👋 Saludar</button>
+     <button onclick="toggleMode()">💡 Modo Médico</button>
+
+    <div id="log">Di: "Hola"</div>
+
+  <div id="resultados"></div>
+   
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
+
+  <script src="js/modelo3d.js"></script>
+</body>
+</html>
