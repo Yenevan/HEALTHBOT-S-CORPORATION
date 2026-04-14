@@ -18,7 +18,7 @@ body {
 
 .menu {
     background-color: #ffffff;
-    border-bottom: 3px solid #2d5be3;
+    border-bottom: 3px solid #33394b;
     padding: 10px;
 }
 
@@ -78,7 +78,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Arial;
-  background: #00a53c;
+  background: lightgreen;
 }
 
 .panel {
