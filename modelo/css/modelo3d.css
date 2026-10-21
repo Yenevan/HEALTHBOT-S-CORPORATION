@@ -82,10 +82,10 @@ body {
 }
 
 .panel {
-  position: top;
-    list-style: none;
-    display: flex; /* ajusta el ancho al contenido */
-    justify-content: center; /* centra el menú */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 260px;
   background: rgba(0, 0, 0, 0.85);
   color: white;
   padding: 15px;
