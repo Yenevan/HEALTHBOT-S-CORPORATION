@@ -122,6 +122,9 @@ function waveHand(){
  speak("Hola soy healthbot, tu asistente medico personal.");
 }
 
+function waveHand2(){
+  speak("¿Que le dice un jardinero a otro? ¡Disfrutemos mientras podamos!");
+}
 // ================= MODO =================
 function toggleMode(){
  medical=!medical;
