@@ -98,6 +98,13 @@ function startListening(){
      speak("Hola soy healthbot, tu asistente medico personal.");
    }
 
+    if(text.includes("Dime un chiste")){
+     speak("¿Qué le dice un jardinero a otro? ¡Disfrutemos mientras podamos!");
+   }
+    if(text.includes("otro chiste")){
+     speak("¿Qué hace un pez en el gimnasio? ¡Nada, es un pez!")
+   }
+
    if(text.includes("escanéame")){
      scanHealth();
    }
