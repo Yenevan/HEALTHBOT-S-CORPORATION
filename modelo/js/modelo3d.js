@@ -94,22 +94,22 @@ function startListening(){
    let text = e.results[0][0].transcript.toLowerCase();
    document.getElementById("log").innerText="Escuché: "+text;
 
-   if(text.includes("hola")){
+   if(text.toLowerCase().includes("hola")){
      speak("Hola soy healthbot, tu asistente medico personal.");
    }
 
-    if(text.includes("dime un chiste")){
+    if(text.toLowerCase().includes("dime un chiste")){
      speak("¿Qué le dice un jardinero a otro? ¡Disfrutemos mientras podamos!");
    }
     if(text.includes("otro chiste")){
      speak("¿Qué hace un pez en el gimnasio? ¡Nada, es un pez!")
    }
 
-   if(text.includes("escanéame")){
+   if(text.toLowerCase().includes("escanéame")){
      scanHealth();
    }
 
-   if(text.includes("modo médico")){
+   if(text.toLowerCase().includes("modo médico")){
      toggleMode();
    }
  };
@@ -122,9 +122,6 @@ function waveHand(){
  speak("Hola soy healthbot, tu asistente medico personal.");
 }
 
-function waveHand2(){
-  speak("¿Que le dice un jardinero a otro? ¡Disfrutemos mientras podamos!");
-}
 // ================= MODO =================
 function toggleMode(){
  medical=!medical;
