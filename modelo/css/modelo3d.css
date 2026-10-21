@@ -84,8 +84,6 @@ body {
 .panel {
   position: top;
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex; /* ajusta el ancho al contenido */
     justify-content: center; /* centra el menú */
   background: rgba(0, 0, 0, 0.85);
